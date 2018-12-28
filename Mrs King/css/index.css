@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+        list-style: none;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+body{
+    background: url( ../img/beijing.jpg );
+}
+
+/* 输入框样式 */
+.shuRu{
+    width: 660px;
+    height: 40px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    position: relative;
+}
+.shuRu>div{
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 10px;
+    color: gold;
+    font-weight: 700px;
+}
+
+.shuRu>input{
+    display: inline-block;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#fff;
+    font-size: 20px;
+    height: 39px;
+    width: 500px;
+    text-align: center;
+}
+
+.shuRu>a{
+
+    width: 75px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color:#fff;
+    float: right;
+}
+
+
+.map{
+margin: 10px auto;
+width: 992px;
+height: 813px;
+position: relative;
+background: url("../img/map.png") no-repeat;
+text-align: center;
+}
+.map>div{
+width: 14px;
+height: 14px;
+position: absolute;
+padding: 2px;
+top: 600px;
+left: 405px;
+border: 3px solid red;
+border-radius: 10px;
+display: none;
+}
+
+.map>div div{
+width: 14px;
+height: 14px;
+border-radius: 5px;
+background-color: #fff;
+opacity: 0.8;
+
+}
+.map>p{
+border-top: 1px solid #fff;
+position: absolute;
+}
+
+.map>a{
+width: 70px;
+height: 30px;
+border: 1px solid #fff; 
+margin: 50px auto; 
+position: relative;
+text-align: center;
+color: #fff;
+line-height: 30px;
+display: none;
+box-shadow: 0 0 10px #fff;
+}
+.map>a p{
+height: 100px;
+border-left: 1px solid #fff;
+position: absolute;
+left: 50%;
+top: 30px;
+display: none;
+}
+
+
+/* ---------------------------------------- */
+
+/* 上面两条线 */
+.xian-top,.xian-bottom{
+position: absolute;
+width: 660px;
+border-top: 1px solid #fff;
+}
+.xian-top{
+top: 0;
+left: -660px;
+}
+.xian-bottom{
+bottom: 0;
+right: -660px;
+}
+
+
+.xian-left,.xian-right,.li-left,.li-right{
+position: absolute;
+height: 40px;
+border-left: 1px solid #fff;
+z-index: 2;
+}
+.xian-left{
+left: 0;
+top:-40px;
+}
+.xian-right{
+right: 0;
+top: -40px;
+}
+
+/* 里面线样式 */
+.li-left{
+left: 77px;
+bottom: -40px;
+}
+.li-right{
+right: 75px;
+bottom: -40px;
+}
+
+
+
+
+

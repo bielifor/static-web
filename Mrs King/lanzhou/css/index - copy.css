@@ -1,0 +1,32 @@
+.nav {
+    height: 160px;
+    line-height: 160px;
+    background: #0f0f0f;
+}
+.banner {
+    height: 80px;
+    background: #ccc;
+}
+.banner li {
+    float: left;
+    width: 197px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    margin-top: 10px;
+    border-left: 2px solid #ebebeb;
+    border-top: 2px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+    background: #000;
+}
+.banner li:nth-last-child(1) {
+    border-right: 2px solid #ebebeb;
+}
+.banner li a {
+    font-size: 18px;
+    color: #fff;
+}
+.rotateBanner {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}

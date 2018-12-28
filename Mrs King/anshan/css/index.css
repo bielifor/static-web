@@ -1,0 +1,357 @@
+/* banner 图 */
+.banner {
+    margin-top: 50px;
+    width: 100%;
+    height: 393px;
+    overflow: hidden;
+    position: relative;
+    /* background-color: red; */
+}
+.banner img{
+    width: 100%;
+}
+.banner .screen {
+    /* width: 100%; */
+    height: 393px;
+    overflow: hidden;
+    position: relative;
+}
+.banner ul {
+    width: 6100px;
+    height: 393px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.banner li {
+    width: 1220px;
+    height: 393px;
+    float: left;
+}
+.cengji {
+    display: none;
+}
+/* 左右按钮 */
+.banner .arr {
+    display: none;
+}
+.banner #banner_left {
+    width: 60px;
+    height: 90px;
+    background: url(../images/ad_ctr.png) no-repeat 0 -180px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -45px;    
+    /* display: none; */
+}
+.banner #banner_right {
+    width: 60px;
+    height: 90px;
+    background: url(../images/ad_ctr.png) no-repeat 0 -270px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -45px;
+    /* display: none;     */
+}
+
+/* 品牌场馆 */
+.site {
+    height: 1200px;
+    text-align: center;
+}
+.site .cg{
+    margin: 50px auto;
+    position: relative;
+}
+.site .cg a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    /* background-color: red; */
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.site .cg a:hover {
+    color: #D6B18B;
+}
+.site ul{
+    margin-top: 20px;
+}
+.site ul .fl {
+    margin-right: 15px;
+}
+.site .yinying:hover {
+    box-shadow: 2px 2px 5px 4px rgb(133, 131, 131);
+}
+
+/* 外景基地 */
+.exterior {
+    height: 1177px;
+    /* background-color:pink; */
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid #7c7b7b;
+}
+.exterior .wj {
+    margin-top: 50px;
+    position: relative;
+}
+.exterior .wj a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    /* background-color: red; */
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.exterior .wj a:hover {
+    color: #D6B18B;
+}
+.exterior .wjtu {
+    /* overflow: hidden; */
+    position: relative;
+    height: 791px;
+}
+.exterior .wjtu img{
+    height: 791px;
+}
+.exterior .wjtu li{
+    margin-top: 30px;
+    position: absolute
+}
+.exterior .wjxtu li {
+    float: left;
+    margin: 50px 50px;
+    height: 170px;
+}
+.exterior .wjxtu li:hover{
+    border-bottom: 2px solid #D6B18B;
+}
+.exterior .wjxtu p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+/* 最新客片 */
+.picture {
+    height: 1300px;
+}
+.picture .kp {
+    margin-top: 50px;
+    text-align: center;    
+    position: relative;
+}
+.picture .kp a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    /* background-color: red; */
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.picture .kp a:hover{
+    color: #D6B18B;
+}
+.picture ul {
+    height: 535px;
+}
+.picture ul li {
+    width: 293px;
+    float: left;
+    margin-top: 30px;
+    margin-right: 8px;
+}
+.picture ul li span {
+    display: block;
+    width: 293px;
+    height: 450px;
+    background: #000;
+}
+.picture ul li .p1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+.picture ul li .p2{
+    font-size: 12px;
+    margin-top: 10px;    
+}
+
+.picture ul li:hover{
+    color: #29C8C3;
+}
+.picture ul li img {
+    display: block;
+}
+
+/* 景点推荐 */
+.scenic {
+    height: 950px;
+}
+.scenic .jd {
+    margin-top: 50px;
+    text-align: center;    
+    position: relative;
+}
+.scenic .jd a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.scenic .jd a:hover {
+    color: #D6B18B;
+}
+.scenic ul li {
+    float: left;
+    width: 242px;
+    border: 1px solid #fff;
+    margin-top: 50px;
+    /* opacity : 0.2; */
+    position: relative;
+    overflow: hidden;
+}
+
+.scenic ul li .fugai {
+    width: 300px;
+    height: 700px;
+    background-color: rgba(0, 0, 0,0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.scenic ul li .jd_one {
+    width: 120px;
+    height: 160px;
+    background-color: #93665A;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -80px;
+    left: 50%;
+    margin-left: -60px;
+    transition:  linear 0.5s;    
+    
+}
+.scenic ul li:hover .fugai{
+    background-color: rgba(0, 0, 0,0);    
+}
+.scenic ul li:hover .jd_one {
+    position: absolute;
+    top: 500px;
+}
+.scenic ul li .jd_one img {
+    margin-top: 10px;
+}
+.scenic ul li .jd_one p {
+    color: #fff;
+    font-size: 16px;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -40px;
+}
+.scenic ul li .jd_two {
+    background-color: #99C5C8;
+}
+.scenic ul li .jd_two p{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -24px;
+}
+.scenic ul li .jd_three {
+    background-color: #09BEB9;
+}
+.scenic ul li .jd_three p{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -24px;
+}
+.scenic ul li .jd_four {
+    background-color: #636C95;
+}
+.scenic ul li .jd_four p{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -24px;
+}
+.scenic ul li .jd_five {
+    background-color: #475764;
+}
+.scenic ul li .jd_five p{
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    margin-left: -32px;
+}
+
+/* 影像宣传 */
+.video {
+    height: 600px;
+}
+.video .xc {
+    margin-top: 50px;
+    text-align: center;    
+    position: relative;
+}
+.video .xc a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.video .xc a:hover {
+    color: #D6B18B;
+}
+
+/* 环球旅拍 */
+.huanqiu {
+    height: 800px;
+}
+.huanqiu .hq {
+    margin-top: 50px;
+    margin-bottom: 80px;
+    text-align: center;    
+    position: relative;
+}
+.huanqiu .hq a {
+    width: 150px;
+    height: 40px;
+    color: #000;
+    font-size: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: -5px;
+    left: 50%;
+    margin-left: -75px;
+}
+.huanqiu .hq a:hover {
+    color: #D6B18B;
+}

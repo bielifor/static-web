@@ -1,0 +1,52 @@
+/*首页样式*/
+body,p,h1,h2,h3,h4,h5,h6,ol,li,ul,dl,dt,dd {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+}
+body {
+    background-color: #fff;
+}
+a,span {
+    text-decoration: none; 
+    display: block;
+}
+input,button {
+    border: none;
+    outline: none;
+}
+/*版心*/
+.w {
+    width: 1220px;
+    margin: 0 auto;
+}
+
+/*清除浮动*/
+.clearfix::after {
+    content: "";
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    display: block;
+}
+.clearfix {
+    zoom: 1;
+}
+
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+img {
+    vertical-align: middle;
+}
+
+body {
+    background: url(../images/img2/timg.jpg) fixed;
+}
+html {
+    position: relative;
+}

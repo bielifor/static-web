@@ -1,0 +1,241 @@
+/* 顶部 */
+.top {
+    height: 30px;
+    background-color: #444;
+    position: relative;
+}
+.top p {
+    line-height: 30px;
+    color: #fff;
+}
+.top p:hover {
+    color: #29C8C3;
+}
+
+.top ul li {
+    float: left;
+    line-height: 30px;
+    color: #fff;
+}
+.top ul li:hover {
+    color: #29C8C3;    
+}
+.top ul li img {
+    margin-right: 5px;
+}
+.top ul span {
+    float: left;
+    line-height: 30px;
+    margin: 0 10px;
+}
+.top .img1 {
+    position: absolute;
+    right: 350px;
+    top: 30px; 
+}
+
+.top .img2{
+    position: absolute;
+    right: 260px;
+    top: 30px;
+}
+
+/* logo */
+
+.logo {
+    text-align: center;
+    height: 140px;
+    line-height: 140px;
+}
+
+/* 导航 */
+.nav {
+    height: 70px;
+    background-color: #222;
+}
+.nav .nav_one li{
+    text-align: center;
+    float: left;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 16px;
+}
+.nav .nav_one a {
+    font-weight: 700;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+}
+.nav .nav_one a:hover {
+    background-color: #D6B18B;
+    border-radius: 5px;
+    color: #229490;
+}
+
+/* 底部 */
+.footer {
+    height: 900px;
+    background: url(../images/dibu2.jpg) no-repeat;
+    background-size: cover;
+    position: relative;    
+}
+.footer .footerone {
+    height: 900px;
+    background-color: rgba(0,0,0,0.8);
+}
+/* 底部左边 */
+.footer .footer_left {
+    width: 190px;
+    height: 900px;
+    border-right: 1px solid #fff;
+}
+.footer .footer_left img {
+    width: 100%;
+    margin-top: 100px;
+    /* margin-left: 20px; */
+}
+
+/* 底部中间 */
+.footer .footer_center {
+    width: 730px;
+    height: 900px;
+    /* background-color: pink; */
+}
+.footer .footer_center .leftone {
+    width: 300px;
+    height: 500px;
+    /* background-color: red; */
+}
+.footer .footer_center .leftone img {
+    margin-left: 30px;
+    margin-top: 100px;
+}
+.footer .footer_center .leftone li {
+    margin: 10px 30px;
+    font-size: 12px;
+    color: #fff;
+}
+.footer .footer_center .leftone li a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+.footer .footer_center .leftone li a:hover {
+    color: #29C8C3;
+}
+
+.footer .footer_center .lefttwo {
+    height: 600px;
+    width: 430px;
+    /* background-color: red; */
+}
+.footer .footer_center .lefttwo img {
+    margin-top: 150px;
+    margin-left: 20px;
+}
+.footer .footer_center .lefttwo .p1 {
+    margin: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer .footer_center .lefttwo .p2 {
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700px;
+}
+.footer .footer_center .lefttwo .p3 {
+    margin-left: 40px;
+    margin-top: 22px;
+    color : #fff;
+    font-size: 16px;
+}
+.footer .footer_center .lefttwo i {
+    color: #2BB37F;
+}
+.footer .footer_center .lefttwo .p4 {
+    margin-left: 40px;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #fff;
+}
+.footer .footer_center .leftthree {
+    width: 520px;
+    height: 300px;
+    margin-top: 600px;
+    /* background-color: blue; */
+    overflow: hidden;    
+}
+.footer .footer_center .leftthree p {
+    margin-top: 100px;
+    margin-left: 40px;
+    color: #fff;
+    font-size: 14px;
+}
+.footer .footer_right {
+    width: 280px;
+    height: 900px;
+    /* background-color:red; */
+}
+.footer .footer_right .img1 {
+    margin-top: 150px;
+}
+.footer .footer_right li {
+    margin: 10px 0;
+}
+.footer .footer_right li p {
+    margin-left: 35px;
+    color: #fff;
+}
+.footer .pingjia {
+    width: 200px;
+    height: 100px;
+    background-color: #D6B18B;
+    border-radius: 50px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -90px;
+}
+.footer .pingjia:hover{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: -50px;
+}
+.footer .pingjia p{
+    width: 90px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    color: #29C8C3;
+    font-size: 18px;
+    background-color: #456291;
+    border-radius: 50%;
+    margin-top: 5px;
+    margin-left: 107px; 
+}
+.footer .pj {
+    width: 300px;
+    height: 100px;
+    background-color: #D6B18B;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 0px;
+    border-radius: 40px;
+    text-align: center;
+    display: none;
+}
+.footer .pj p{
+    margin-top: 10px;
+    color: #fff;
+}
+.footer .pj li {
+    float: left;
+    font-size: 40px;
+    color: #29C8C3;
+    margin-left: 20px;
+}
